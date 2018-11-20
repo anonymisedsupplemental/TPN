@@ -11,11 +11,15 @@ tqdm
 Please download the compressed tar files from: https://github.com/renmengye/few-shot-ssl-public
 
 mkdir -p data/miniImagenet/data
+
 tar -zxvf mini-imagenet.tar.gz
+
 mv *.pkl data/miniImagenet/data
 
 mkdir -p data/tieredImagenet/data
+
 tar -xvf tiered-imagenet.tar
+
 mv *.pkl data/tieredImagenet/data
 
 ### TPN mini-5way1shot
